@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StreamZacky – Streaming Enjoy Movies</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <h1><i class="fas fa-galaxy"></i> StreamZacky</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="category.html?genre=sports">Live Sport</a></li>
+        <li><a href="category.html?genre=movies">Movies</a></li>
+        <li><a href="category.html?genre=series">Series</a></li>
+        <li><a href="category.html?genre=kids">Kids & Family</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+      <div class="nav-buttons">
+        <a href="#" class="btn btn-outline">Sign In</a>
+        <a href="#pricing" class="btn btn-primary">Get Started</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <!-- Hero Banner dengan Animasi Looping -->
+<section class="hero">
+  <div class="hero-animated-bg">
+    <!-- Baris 1 -->
+    <div class="poster-row">
+      <img src="img/EndGame.jpg" alt="Avengers">
+      <img src="img/Stranger Things.jpg" alt="Stranger Things">
+      <img src="img/Interstellar.jpg" alt="Interstellar">
+      <img src="img/Game of Thrones.jpg" alt="Game of Thrones">
+      <img src="img/Peppa Pig.jpg" alt="Peppa Pig">
+      <img src="img/NBA.jpg" alt="NBA">
+      <!-- Ulangi untuk loop seamless -->
+      <img src="img/EndGame.jpg" alt="Avengers">
+      <img src="img/Stranger Things.jpg" alt="Stranger Things">
+      <img src="img/Interstellar.jpg" alt="Interstellar">
+      <img src="img/Game of Thrones.jpg" alt="Game of Thrones">
+      <img src="img/Peppa Pig.jpg" alt="Peppa Pig">
+      <img src="img/NBA.jpg" alt="NBA">
+    </div>
+    <!-- Baris 2 (bergerak berlawanan arah) -->
+    <div class="poster-row reverse">
+      <img src="img/Conjuring.jpg" alt="The Conjuring">
+      <img src="img/Breaking Bad.jpg" alt="Breaking Bad">
+      <img src="img/The Crown.jpg" alt="The Crown">
+      <img src="img/F1.jpg" alt="F1">
+      <img src="img/Bluey.jpg" alt="Bluey">
+      <img src="img/UFC.jpg" alt="UFC">
+      <!-- Ulangi -->
+      <img src="img/Conjuring.jpg" alt="The Conjuring">
+      <img src="img/Breaking Bad.jpg" alt="Breaking Bad">
+      <img src="img/The Crown.jpg" alt="The Crown">
+      <img src="img/F1.jpg" alt="F1">
+      <img src="img/Bluey.jpg" alt="Bluey">
+      <img src="img/UFC.jpg" alt="UFC">
+    </div>
+  </div>
+
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <h1>Enjoy Streaming Film & Movies</h1>
+    <p>Crystal-clear 4K streaming, zero buffering, 24/7 support — all in one universe.</p>
+    <div class="hero-buttons">
+      <a href="#pricing" class="btn btn-primary btn-lg">Start Free Trial</a>
+      <a href="category.html?genre=sports" class="btn btn-outline btn-lg">View Channels</a>
+    </div>
+  </div>
+</section>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <i class="fas fa-tv"></i>
+          <h3>15,000+ Live TV</h3>
+          <p>Sports, news, entertainment from 100+ countries</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-film"></i>
+          <h3>50,000+ Movies</h3>
+          <p>Latest releases, classics, and exclusive content</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>All Devices</h3>
+          <p>Smart TV, Firestick, Android, iOS, PC & more</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-bolt"></i>
+          <h3>Anti-Buffering</h3>
+          <p>Proprietary tech for smooth 4K playback</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-headset"></i>
+          <h3>24/7 Support</h3>
+          <p>Real humans, not bots</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-globe"></i>
+          <h3>Global Content</h3>
+          <p>US, UK, AR, BR, ID, FR, DE, and more</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section id="categories" class="categories">
+    <div class="container">
+      <h2 class="section-title">Explore Content</h2>
+      <div class="categories-grid">
+        <a href="category.html?genre=sports" class="category-card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/Live Sports.jpg')">
+          <h3>Live Sports</h3>
+          <p>NBA, F1, Football, UFC</p>
+        </a>
+        <a href="category.html?genre=movies" class="category-card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/Movie.jpg')">
+          <h3>Movies</h3>
+          <p>Action, Drama, Horror, Sci-Fi</p>
+        </a>
+        <a href="category.html?genre=series" class="category-card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/TvSeries.jpg')">
+          <h3>TV Series</h3>
+          <p>Netflix-style binge content</p>
+        </a>
+        <a href="category.html?genre=kids" class="category-card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/Kids.jpg')">
+          <h3>Kids & Family</h3>
+          <p>Safe, educational, fun</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Harga -->
+<section id="pricing" class="pricing">
+  <div class="container">
+    <h2 class="section-title">Pilih Paket Anda</h2>
+    <p class="section-subtitle">Semua paket mencakup EPG, VOD, Catch-up, dan dukungan 24/7</p>
+    
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>Starter</h3>
+        <div class="price">Rp149.000</div>
+        <div class="duration">1 Bulan</div>
+        <ul>
+          <li>1 Perangkat</li>
+          <li>Kualitas HD</li>
+          <li>EPG Termasuk</li>
+          <li>Dukungan via Email</li>
+        </ul>
+        <a href="#" class="btn btn-outline">Pilih Paket</a>
+      </div>
+
+      <div class="pricing-card popular">
+        <div class="popular-badge">TERPOPULER</div>
+        <h3>Premium</h3>
+        <div class="price">Rp499.000</div>
+        <div class="duration">6 Bulan</div>
+        <ul>
+          <li>4 Perangkat</li>
+          <li>Ultra HD 4K</li>
+          <li>VOD + Catch-up</li>
+          <li>Obrolan Langsung 24/7</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Pilih Paket</a>
+      </div>
+
+      <div class="pricing-card">
+        <h3>Ultimate</h3>
+        <div class="price">Rp849.000</div>
+        <div class="duration">12 Bulan</div>
+        <ul>
+          <li>Perangkat Tidak Terbatas</li>
+          <li>4K + HDR</li>
+          <li>Akses Awal ke Acara PPV</li>
+          <li>Dukungan VIP</li>
+        </ul>
+        <a href="#" class="btn btn-outline">Pilih Paket</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4><i class="fas fa-galaxy"></i> StreamZacky</h4>
+          <p>Your universe of endless entertainment.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="category.html?genre=sports">Channels</a></li>
+            <li><a href="category.html?genre=movies">Movies</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p><i class="fas fa-envelope"></i> support@StreamZacky.dev</p>
+          <p><i class="fas fa-comments"></i> Live Chat (24/7)</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 StreamZacky. All rights reserved. This is a demo website for educational purposes only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
